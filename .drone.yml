@@ -10,6 +10,6 @@ build:
             - python testing.py
 publish:
     docker:
-        repo: $$DOCKER_USER/cicd_demoapp
+        repo: $$DOCKER_USERNAME/cicd_demoapp
         tag: latest
-        username: $$DOCKER_USER
+        username: $$DOCKER_USERNAME
